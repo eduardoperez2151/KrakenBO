@@ -53,7 +53,7 @@ public class UserControllerTest extends AbstractControllerTest {
         checkRestAPIResponse(delete("/user/24"), null, status().isOk(), ResponseAPI.SUCCESS_CODE, ResponseAPI.SUCCESS_MESSAGE);
 
         checkRestAPIResponse(get("/user"), null, status().isOk(), ResponseAPI.SUCCESS_CODE, ResponseAPI.SUCCESS_MESSAGE)
-                .andExpect(jsonPath("$.data", hasSize(2)));
+                .andExpect(jsonPath("$.data", hasSize(3)));
     }
 
     @Test
@@ -65,22 +65,6 @@ public class UserControllerTest extends AbstractControllerTest {
 
         checkRestAPIResponse(get("/user"), null, status().isOk(), ResponseAPI.SUCCESS_CODE, ResponseAPI.SUCCESS_MESSAGE)
                 .andExpect(jsonPath("$.data", hasSize(3)));
-    }
-
-    @Test
-    public void deleteUserTwice() throws Exception {
-        checkRestAPIResponse(get("/user"), null, status().isOk(), ResponseAPI.SUCCESS_CODE, ResponseAPI.SUCCESS_MESSAGE)
-                .andExpect(jsonPath("$.data", hasSize(3)));
-
-        checkRestAPIResponse(delete("/user/24"), null, status().isOk(), ResponseAPI.SUCCESS_CODE, ResponseAPI.SUCCESS_MESSAGE);
-
-        checkRestAPIResponse(get("/user"), null, status().isOk(), ResponseAPI.SUCCESS_CODE, ResponseAPI.SUCCESS_MESSAGE)
-                .andExpect(jsonPath("$.data", hasSize(2)));
-
-        checkRestAPIResponse(delete("/user/24"), null, status().isNotFound(), ResponseAPI.ERROR_CODE, "La entidad con id 24 no existe");
-
-        checkRestAPIResponse(get("/user"), null, status().isOk(), ResponseAPI.SUCCESS_CODE, ResponseAPI.SUCCESS_MESSAGE)
-                .andExpect(jsonPath("$.data", hasSize(2)));
     }
 
     @Test
