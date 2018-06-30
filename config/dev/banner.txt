@@ -1,0 +1,26 @@
+${AnsiColor.BRIGHT_BLUE}                                                                         .,**//////,..
+${AnsiColor.BRIGHT_BLUE}                                                                      ,*,,,,/((####(////*
+${AnsiColor.BRIGHT_BLUE}                                                                    .*.../((%%%%(/(&&//(/
+${AnsiColor.BRIGHT_BLUE}                                                                   *  ,////(((#%#%%%%%((///(.
+${AnsiColor.BRIGHT_BLUE}                                                                  /  .(/****/((####%%#*//%(/(,
+${AnsiColor.BRIGHT_BLUE}                                                                 *. ./&*(((#((((((####//(##(*(.
+${AnsiColor.BRIGHT_BLUE}                                                                .*  ...,*(///***//((#*,**((#**/
+${AnsiColor.BRIGHT_BLUE}                                                                ,,  ...,(//*,,,,**/((,,**/(#*,(
+${AnsiColor.BRIGHT_BLUE}                                                                .*  ..,.((*.......,((#(#%((#*,/
+${AnsiColor.BRIGHT_BLUE}                                                                 *. ..,.(##/.    ./###%%%((*,/,
+${AnsiColor.BRIGHT_BLUE}                                                                 ./ ..,.,%%#(   /####%%&&/*,**
+${AnsiColor.BRIGHT_BLUE}                                                                   *..,,./&%%**%%%%%%&&&(,,*,
+${AnsiColor.BRIGHT_BLUE}                                                                    *,,**../&&&&&&&&&%*,,*(,
+${AnsiColor.BRIGHT_BLUE}                                                                      ,**/*.   ..,,,,,,/(.
+${AnsiColor.BRIGHT_BLUE}                                                                         .,,////////*,
+
+${AnsiColor.BRIGHT_BLUE}      .*//////////////////,     ,*////////////////////    ,/////////////////,      .,////////////////////   */////////////////,     *//////////*//////////,
+${AnsiColor.BRIGHT_BLUE}    /&%%################*     (%%%#################(.  ,%%%#################%%%  ,%%%#################(. *%%%#################%%#..%%%########%%%########%%%
+${AnsiColor.BRIGHT_BLUE}   /%%.        */////////*,  (%%(//////////,          .%%/                   #%(.%%/                     %%(                   %%#.%%*        #%/        #%%
+${AnsiColor.BRIGHT_BLUE}   /%%.          *#######%%%.(%%#########,            .%%*                   (%(.%%*                     %%/                   %%#.%%*        #%/        #%%
+${AnsiColor.BRIGHT_BLUE}    (%%#/////////////////#%%..#%%#////////////////////.*%%%(///////////////(%%%. *%%%(/////////////////, (%%#////////////////(%%%,.&%*        #%/        #%%
+${AnsiColor.BRIGHT_BLUE}      *(##################/.   .*(#################(.    ,/#################*.     ./################*     .(#################/     ,,         .,          *
+
+
+${AnsiColor.BRIGHT_BLUE} Application Name: ${spring.application.name}
+${AnsiColor.BRIGHT_BLUE} API Version     : ${application.version}
